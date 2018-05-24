@@ -1,0 +1,186 @@
+body {padding-top: 54px;font-family: 'Prompt', sans-serif;}
+/*// Body*/
+.bg-blur{
+  position: fixed;
+  background-image: url(../img/wallpaper.jpg); 
+  background-repeat: no-repeat;
+  background-size:cover; 
+  min-height:100%;
+  min-width:100%;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: -1;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  margin-top: -50px;
+}
+/*// Background-Blur */
+
+.mail_ho:hover{
+  background-color:#f0e4b5;
+}
+
+.addho{
+  background-color:rgba(255,255,255,0.8);
+}
+.addho:hover{
+  background-color: #2a2a2a;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .fhead{
+    font-size:30px;
+    /* color:yellow;  */
+  }
+  .hmainpage{
+    height: 85.5vh;
+    background-color:rgba(255,255,255,0.8);
+    overflow-y:scroll;
+  }
+  .lbpadmar{
+    padding: 0;
+    margin: 0;
+  }
+  .addfileinmodal{
+    align-items: center;
+  }
+  .fixedheightselectsent{
+    overflow-y:scroll;
+    height:25vh;
+  }
+  .fixedheightselectsent-doc{
+    overflow-y:scroll;
+    height:25vh;
+  }
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .fhead{
+    font-size:32.5px; 
+    /* color:yellowgreen; */
+    margin-left: 32px;
+  }
+  .hmainpage{
+    height: 85.5vh;
+    background-color:rgba(255,255,255,0.8);
+    overflow-y:scroll;
+  }
+  .lbpadmar{
+    padding: 0;
+    margin: 0;
+  }
+  .addfileinmodal{
+    float: right;
+  }
+  .fixedheightselectsent{
+    overflow-y:scroll;
+    height:25vh;
+  }
+  .fixedheightselectsent-doc{
+    overflow-y:scroll;
+    height:25vh;
+  }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .fhead{
+    font-size:35px; 
+    /* color:green; */
+    margin-left: 24px;
+  }
+  .hmainpage{
+    height: 85.5vh;
+    background-color:rgba(255,255,255,0.8);
+    overflow-y:scroll;
+  }
+  .lbpadmar{
+    padding: 0;
+    margin: 0;
+  }
+  .addfileinmodal{
+    float: right;
+  }
+
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .fhead{
+    font-size:37.5px; 
+    /* color:orange; */
+  }
+  .hmainpage{
+    height: 85.5vh;
+    background-color:rgba(255,255,255,0.8);
+    overflow-y:scroll;
+  }
+  .lbpadmar{
+    padding: 0;
+    margin: 0;
+  }
+  .addfileinmodal{
+    float: right;
+  }
+
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .fhead{
+    font-size:40px; 
+    /* color:red; */
+  }
+  .hmainpage{
+    height: 93vh;
+    background-color:rgba(255,255,255,0.8);
+    overflow-y:scroll;
+  }
+  .lbpadmar{
+    padding-left:15px;
+    padding-right: 15px;
+  }
+  .mteacherselect{
+    margin-left: 15px;
+  }
+  .addfileinmodal{
+    float: right;
+  }
+  .inboxanswerfiles{
+    height: 30vh;
+    overflow-y:scroll;
+  }
+  .inboxmanage{
+    height:40vh;
+    overflow-y:scroll;
+  }
+ }
